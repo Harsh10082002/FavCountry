@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+/* background-color: ; */
+}
+
+#main{
+    margin: 2% 0%;
+    height: 40%;
+}
+#main #formData #country{
+    background-color: transparent;
+    border: none;
+    width: 370px;
+    height: 60px;
+    border-bottom: 2px solid darkblue;
+    outline: none;
+}
+
+#main #formData #search{
+    margin-left: 1.2%;
+}
+
+
+#main .flag-div .image{
+    padding: 100px 0 20px 70px ;
+}
+
+#main #detail .flag-div .name{
+    font-family: 'DM Serif Display', serif;
+    width: 205.656px;
+    margin-left: 200px;
+}
+#main #detail .content #all_list{
+    padding-top: 12.797px;
+    font-size: 1.5rem;
+    padding-bottom: 0;
+    color: black;
+
+}
+.side-key{
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.6rem;
+}
+.side-val{
+    font-family: 'DM Serif Display', serif;
+    color: #3d64e6;
+    font-size: 1.2rem;
+}
+#heading{
+    font-family: 'DM Serif Display', serif;
+
+}
+
+@media only screen and (max-width: 550px) and (min-width: 420px) {
+    #heading{
+        text-align: center;
+    }
+    #main .flag-div .image{
+        padding: 50px 0 20px 40px;
+    }
+
+}
